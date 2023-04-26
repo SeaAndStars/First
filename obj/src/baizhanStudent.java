@@ -7,6 +7,7 @@ public class baizhanStudent {
         System.out.println("我正在学习，使用的电脑是："+computer.brand);
     }
 
+    @SuppressWarnings("WriteOnlyObject")
     public static void main(String[] args) {
         Computer c1 = new Computer();
         c1.brand ="联想";
