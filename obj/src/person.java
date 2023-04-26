@@ -9,6 +9,8 @@ public class person {
         name = _name;
         age = _age;
     }
+    person(){
+    }
     public static void main(String[] args) {
         person p1 = new person("张三",18);
         person p2 = new person("李四",30);
