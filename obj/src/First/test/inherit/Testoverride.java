@@ -1,5 +1,8 @@
 package First.test.inherit;
 
+/**
+ * @author SeaStar
+ */
 public class Testoverride {
     public static void main(String[] args) {
      horse h1 = new horse();
