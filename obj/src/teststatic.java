@@ -4,6 +4,9 @@ public class teststatic {
      static void printcompany(){
          System.out.println(Company);
      }
+     static {
+         System.out.println("类被初始化时调用");
+     }
      void login(){
          System.out.println("Login Successful");
      }
