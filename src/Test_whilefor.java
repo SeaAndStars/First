@@ -1,3 +1,6 @@
+/**
+ * @author SeaStar
+ */
 public class Test_whilefor {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {

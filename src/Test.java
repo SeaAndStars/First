@@ -1,3 +1,6 @@
+/**
+ * @author SeaStar
+ */
 public class Test {
     public static void main(String[] args) {
     int score = (int)(Math.random()*100);

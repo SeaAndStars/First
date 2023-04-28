@@ -1,3 +1,6 @@
+/**
+ * @author SeaStar
+ */
 public class test_monday {
     public static void main(String[] args) {
         int week = (int) (Math.random() * 8);
