@@ -1,3 +1,6 @@
+/**
+ * @author SeaStar
+ */
 public class teststatic {
     int id;
     static final String Company = "Happy";

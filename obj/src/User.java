@@ -1,5 +1,6 @@
 /**
  * 模拟网站的账户(用于测试方法的重载)
+ * @author SeaStar
  */
 public class User {
     int id;

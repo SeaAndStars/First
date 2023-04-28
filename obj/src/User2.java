@@ -1,3 +1,6 @@
+/**
+ * @author SeaStar
+ */
 public class User2 {
     int id;
     String name;
