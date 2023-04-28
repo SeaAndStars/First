@@ -2,6 +2,7 @@ package First.test.inherit;
 
 /**
  * 测试继承基本用法
+ * @author SeaStar
  */
 public class Testinherit {
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ class person{
 class student extends person {
 
 
-    String major;
+    final String major;
     public student(String name,double height,String major){
         this.major = major;
         this.name = name;

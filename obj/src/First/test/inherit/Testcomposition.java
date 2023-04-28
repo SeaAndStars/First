@@ -1,5 +1,8 @@
 package First.test.inherit;
 
+/**
+ * @author SeaStar
+ */
 public class Testcomposition {
     public static void main(String[] args) {
         STU stu1 = new STU("Happy", 175.0, "java");
@@ -14,7 +17,7 @@ public class Testcomposition {
 }
 
 class STU {
-    person person = new person();
+    final person person = new person();
     String mojar;
 
     public void study() {
@@ -46,6 +49,6 @@ class CPU {
 }
 
 class Computer {
-    Memory memory = new Memory();
-    CPU cpu = new CPU();
+    final Memory memory = new Memory();
+    final CPU cpu = new CPU();
 }

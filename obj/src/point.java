@@ -2,8 +2,8 @@
  * 描述2维点
  */
 public class point {
-    double x;
-    double y;
+    final double x;
+    final double y;
 
     public point(double _x, double _y){
     x = _x;

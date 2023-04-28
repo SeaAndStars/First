@@ -1,6 +1,6 @@
 public class teststatic {
     int id;
-    static String Company = "Happy";
+    static final String Company = "Happy";
      static void printcompany(){
          System.out.println(Company);
      }
