@@ -2,6 +2,7 @@ package First.test.inherit;
 
 /**
  * 测试继承基本用法
+ * @author SeaStar
  */
 public class Testinherit {
     public static void main(String[] args) {
